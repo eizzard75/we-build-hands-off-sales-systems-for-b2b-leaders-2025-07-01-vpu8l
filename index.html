@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +15,51 @@
     <meta name="description" content="We build hands-off sales systems for B2B leaders. Gain clarity, achieve predictable results, and scale with confidence.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-['Inter']">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-xl font-bold text-white">RevenuePath</a>
+                <a href="https://eizzard75.github.io/we-build-hands-off-sales-systems-for-b2b-leaders-2025-07-01-vpu8l" class="text-xl font-bold text-white hover:text-blue-400 transition-colors duration-300">RevenuePath</a>
+                
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
                 </div>
-                <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105">
+
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl text-gray-300 hover:text-white transition-colors duration-300"></i>
+                </button>
+
+                <button class="hidden md:block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-600/25">
                     Book More Meetings
                 </button>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105">
+                        Book More Meetings
+                    </button>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="pt-32 pb-24 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=2000')] bg-cover bg-center opacity-10"></div>
             <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20"></div>
             <div class="container mx-auto px-6 relative">
                 <div class="max-w-4xl mx-auto text-center">
@@ -35,10 +67,10 @@
                         We Build Hands-Off Sales Systems for B2B Leaders
                     </h1>
                     <p class="text-xl text-gray-300 mb-12 leading-relaxed">
-                        Transform your sales process into a predictable revenue engine that scales with your business.
+                        Transform your sales process into a predictable revenue engine that delivers consistent results. Our proven systems help B2B companies increase pipeline velocity by 40% and boost conversion rates by 25% on average.
                     </p>
                     <button class="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-600/25">
-                        Book More Meetings
+                        Book More Meetings →
                     </button>
                 </div>
             </div>
@@ -48,34 +80,34 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Transform Your Sales Process</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:bg-gray-750">
                         <div class="w-16 h-16 bg-blue-600 rounded-xl mb-6 flex items-center justify-center">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Sales Process</h3>
-                        <p class="text-gray-400 leading-relaxed">Streamline your sales workflow with automated systems that convert prospects into customers.</p>
+                        <h3 class="text-xl font-semibold mb-4">Automated Sales Process</h3>
+                        <p class="text-gray-400 leading-relaxed">Our intelligent automation handles 80% of your sales tasks, from lead qualification to follow-ups. Reduce manual work by 60% while increasing engagement rates by 35%.</p>
                     </div>
                     
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:bg-gray-750">
                         <div class="w-16 h-16 bg-blue-600 rounded-xl mb-6 flex items-center justify-center">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Strategic Revenue</h3>
-                        <p class="text-gray-400 leading-relaxed">Build predictable revenue streams that grow your business systematically.</p>
+                        <h3 class="text-xl font-semibold mb-4">Predictable Revenue Engine</h3>
+                        <p class="text-gray-400 leading-relaxed">Create reliable forecasts with our data-driven approach. Clients see an average 45% improvement in forecast accuracy and 30% faster sales cycles.</p>
                     </div>
 
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl hover:bg-gray-750">
                         <div class="w-16 h-16 bg-blue-600 rounded-xl mb-6 flex items-center justify-center">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Actionable Growth</h3>
-                        <p class="text-gray-400 leading-relaxed">Implement data-driven strategies that deliver measurable business results.</p>
+                        <h3 class="text-xl font-semibold mb-4">AI-Powered Growth</h3>
+                        <p class="text-gray-400 leading-relaxed">Leverage machine learning to identify your best opportunities. Our AI algorithms increase win rates by 28% and help prioritize high-value prospects.</p>
                     </div>
                 </div>
             </div>
@@ -85,35 +117,124 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Your Path to Success</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="w-20 h-20 bg-blue-600/20 rounded-full mx-auto mb-6 flex items-center justify-center">
                             <svg class="w-10 h-10 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Gain Clarity</h3>
-                        <p class="text-gray-400">Understand exactly what drives your sales success and where to focus your efforts.</p>
+                        <h3 class="text-xl font-semibold mb-4">Total Sales Visibility</h3>
+                        <p class="text-gray-400">Get real-time insights into your entire sales pipeline. Track key metrics and identify optimization opportunities with our advanced analytics dashboard.</p>
                     </div>
 
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="w-20 h-20 bg-blue-600/20 rounded-full mx-auto mb-6 flex items-center justify-center">
                             <svg class="w-10 h-10 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Predictable Results</h3>
-                        <p class="text-gray-400">Create reliable revenue forecasts and achieve consistent growth targets.</p>
+                        <h3 class="text-xl font-semibold mb-4">Guaranteed Results</h3>
+                        <p class="text-gray-400">Our clients achieve 40% higher conversion rates and 25% shorter sales cycles within the first quarter of implementation.</p>
                     </div>
 
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="w-20 h-20 bg-blue-600/20 rounded-full mx-auto mb-6 flex items-center justify-center">
                             <svg class="w-10 h-10 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Scale with Confidence</h3>
-                        <p class="text-gray-400">Expand your business knowing your sales system can handle the growth.</p>
+                        <h3 class="text-xl font-semibold mb-4">Infinite Scalability</h3>
+                        <p class="text-gray-400">Our systems grow with your business, supporting expansion from 10 to 10,000+ leads per month without losing efficiency.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-750 p-8 rounded-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6">"RevenuePath transformed our sales process completely. We've seen a 43% increase in qualified leads and our sales cycle shortened by 35% in just three months. Their AI-powered system is a game-changer."</p>
+                        <div>
+                            <p class="font-semibold">Sarah Chen</p>
+                            <p class="text-gray-400">VP of Sales, TechFlow Solutions</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-750 p-8 rounded-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6">"The automated qualification system has been incredible. We're now handling 3x the leads with the same team size, and our conversion rates have improved by 28%."</p>
+                        <div>
+                            <p class="font-semibold">Michael Rodriguez</p>
+                            <p class="text-gray-400">Sales Director, CloudScale Inc</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-750 p-8 rounded-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6">"The predictability in our sales forecasting has been remarkable. We can now project revenue with 95% accuracy, which has transformed our business planning."</p>
+                        <div>
+                            <p class="font-semibold">Emma Thompson</p>
+                            <p class="text-gray-400">CEO, DataSync Solutions</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-750 p-8 rounded-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6">"Implementation was smooth and the ROI was immediate. Within 60 days, we saw a 52% increase in qualified meetings and a 40% reduction in sales admin work."</p>
+                        <div>
+                            <p class="font-semibold">David Park</p>
+                            <p class="text-gray-400">Head of Growth, InnovateX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About RevenuePath</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-300 leading-relaxed">
+                        Founded in 2020 by a team of sales automation experts and AI specialists, RevenuePath emerged from a simple observation: B2B sales processes were becoming increasingly complex while sales teams were struggling to keep up with growing demands. Our founders combined their expertise in sales operations and artificial intelligence to create a revolutionary approach to sales automation.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        Today, our mission is to empower B2B organizations with intelligent sales systems that deliver predictable, scalable revenue growth. We're driven by our core values of innovation, transparency, and customer success, helping companies across the globe transform their sales operations into efficient, data-driven revenue engines.
+                    </p>
                 </div>
             </div>
         </section>
@@ -122,17 +243,29 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">How does the sales system work?</h3>
-                        <p class="text-gray-400">Our system combines proven methodologies with automation to create a reliable sales pipeline that generates consistent results.</p>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How quickly can I see results with your system?</h3>
+                        <p class="text-gray-400">Most clients see significant improvements within 30-45 days of implementation. Our onboarding process typically takes 2-3 weeks, followed by a rapid optimization phase that delivers immediate ROI through increased conversion rates and shorter sales cycles.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">What kind of results can I expect?</h3>
-                        <p class="text-gray-400">Clients typically see improved conversion rates, shorter sales cycles, and more predictable revenue growth within the first 90 days.</p>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What makes your AI technology different from other solutions?</h3>
+                        <p class="text-gray-400">Our proprietary AI algorithms are specifically trained on B2B sales data from over 10,000 successful deals. They continuously learn and adapt to your specific industry and sales process, providing increasingly accurate predictions and recommendations over time.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">How long does implementation take?</h3>
-                        <p class="text-gray-400">Most clients are up and running within 4-6 weeks, with ongoing optimization and support to ensure long-term success.</p>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How does your pricing structure work?</h3>
+                        <p class="text-gray-400">We offer flexible, scalable pricing based on your sales volume and specific needs. Our packages start at $2,500/month and include full system access, onboarding, and ongoing support. We also offer performance-based pricing options for enterprise clients.</p>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What kind of support do you provide?</h3>
+                        <p class="text-gray-400">Every client gets a dedicated success manager, 24/7 technical support, and access to our knowledge base. We also provide monthly strategy sessions and quarterly business reviews to ensure you're maximizing system performance.</p>
+                    </div>
+                    
+                    <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Can your system integrate with our existing tools?</h3>
+                        <p class="text-gray-400">Yes, we offer seamless integration with all major CRM platforms, marketing automation tools, and business intelligence systems. Our API-first approach ensures compatibility with your existing tech stack while maintaining data integrity and workflow efficiency.</p>
                     </div>
                 </div>
             </div>
@@ -142,13 +275,14 @@
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Sales Process?</h2>
                 <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-                    Take the first step toward predictable revenue growth. Schedule your consultation today.
+                    Join the hundreds of B2B companies already achieving predictable revenue growth with RevenuePath. Schedule your personalized consultation today and discover how we can help you scale your sales operations.
                 </p>
                 <div class="flex flex-col items-center space-y-6">
                     <button class="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-600/25">
-                        Book More Meetings
+                        Book Your Strategy Session →
                     </button>
-                    <a href="mailto:Eric@myRevenuePath.com" class="text-gray-300 hover:text-white transition-colors duration-300">
+                    <a href="mailto:Eric@myRevenuePath.com" class="text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
+                        <i class="far fa-envelope mr-2"></i>
                         Eric@myRevenuePath.com
                     </a>
                 </div>
@@ -166,24 +300,24 @@
                 <div>
                     <h4 class="font-semibold mb-4">Solutions</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Sales Process</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Revenue Strategy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Growth Planning</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors duration-300">Sales Process</a></li>
+                        <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Revenue Strategy</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Success Stories</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="font-semibold mb-4">Company</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Blog</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Contact</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="https://eizzard75.github.io/we-build-hands-off-sales-systems-for-b2b-leaders-2025-07-01-vpu8l/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://eizzard75.github.io/we-build-hands-off-sales-systems-for-b2b-leaders-2025-07-01-vpu8l/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://eizzard75.github.io/we-build-hands-off-sales-systems-for-b2b-leaders-2025-07-01-vpu8l/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -192,5 +326,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
